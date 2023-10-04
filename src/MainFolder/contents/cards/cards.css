@@ -1,0 +1,20 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 1rem;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  background-color: rgba(240, 248, 255, 0);
+}
+.cards > .cards-content {
+  display: flex;
+  flex-direction: column;
+}
+.cards > .cards-content > .point {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}/*# sourceMappingURL=cards.css.map */
