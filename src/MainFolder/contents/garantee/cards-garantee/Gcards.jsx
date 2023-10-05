@@ -7,7 +7,6 @@ const Gcards = ({ arr, image, link }) => {
   return (
       <div className='gcards'>
           <Link to={link}>
-              {/* <h3>{arr?.title}</h3> */}
               <div className="gcards-content">
                   <div className="point">
                       <GiShakingHands /> <h4>{arr?.point1}</h4>

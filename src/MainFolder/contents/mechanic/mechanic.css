@@ -1,0 +1,27 @@
+#specialists {
+  overflow: hidden;
+  padding: 1rem 0;
+  white-space: nowrap;
+  padding: 1rem;
+}
+#specialists > h1 {
+  margin: 1rem;
+}
+#specialists > .logo-slider {
+  display: inline-block;
+  animation: 10s slide infinite linear;
+  margin: 1.5rem;
+}
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+#specialists > .logo-slider > img {
+  width: 10rem;
+  height: 8rem;
+  margin: 0 40px;
+}/*# sourceMappingURL=mechanic.css.map */

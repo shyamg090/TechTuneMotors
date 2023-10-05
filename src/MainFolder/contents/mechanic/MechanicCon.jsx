@@ -1,11 +1,36 @@
 import React from 'react'
+import a1 from '../../../images/a (1).png'
+import a2 from '../../../images/a (2).png'
+import a3 from '../../../images/a (3).png'
+import a4 from '../../../images/a (4).png'
+import a5 from '../../../images/a (5).png'
+import a6 from '../../../images/a (6).png'
+import a7 from '../../../images/a (7).png'
+
+import './mechanic.css';
 
 const MechanicCon = () => {
   return (
     <div id='specialists'>
-      <h2>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, rerum facilis veniam voluptates dignissimos dolores ipsum sequi quaerat, commodi iste totam, quia fugit sunt culpa? Quaerat autem dolores incidunt exercitationem officiis culpa labore perspiciatis tenetur placeat. Perspiciatis esse eaque veniam, reprehenderit necessitatibus quam pariatur alias sequi a dignissimos, voluptatum voluptatem eligendi harum animi blanditiis quod. Labore quibusdam quis aliquid ex eius perspiciatis quasi quam suscipit mollitia sequi? Libero similique adipisci, ipsam doloribus deserunt voluptates excepturi pariatur est. Non ut repellendus corrupti nesciunt nobis vero sed ea consequatur reiciendis architecto voluptas assumenda fuga reprehenderit quidem id commodi nam minima, aliquam facilis.
-      </h2>
+      <h1>Our Specilization</h1>
+      <div className="logo-slider">
+        <img src={a1} alt="logo" />
+        <img src={a2} alt="logo" />
+        <img src={a3} alt="logo" />
+        <img src={a4} alt="logo" />
+        <img src={a5} alt="logo" />
+        <img src={a6} alt="logo" />
+        <img src={a7} alt="logo" />
+      </div>
+      <div className="logo-slider">
+        <img src={a1} alt="logo" />
+        <img src={a2} alt="logo" />
+        <img src={a3} alt="logo" />
+        <img src={a4} alt="logo" />
+        <img src={a5} alt="logo" />
+        <img src={a6} alt="logo" />
+        <img src={a7} alt="logo" />
+      </div>
     </div>
   )
 }

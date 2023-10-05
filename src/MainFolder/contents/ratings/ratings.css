@@ -1,0 +1,22 @@
+#ratings {
+  overflow: hidden;
+  padding: 1rem 0;
+  white-space: nowrap;
+  padding: 1rem;
+}
+#ratings > h1 {
+  margin: 1rem;
+}
+#ratings > .rating-slider {
+  display: inline-flex;
+  animation: 15s slide infinite linear;
+  margin: 1.5rem;
+}
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}/*# sourceMappingURL=ratings.css.map */
