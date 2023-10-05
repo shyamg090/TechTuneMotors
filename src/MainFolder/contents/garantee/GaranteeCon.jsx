@@ -1,10 +1,21 @@
 import React from 'react'
+import { array } from '../../information';
+import Gcards from './cards-garantee/Gcards';
+import './garantee.css';
 
 const GaranteeCon = () => {
   return (
     <div id='garuntees'>
-      <h1>Garantee</h1>
-      <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, architecto at, magni sint veniam provident quia accusamus ullam hic alias quidem delectus obcaecati voluptatibus praesentium ipsum distinctio tempora totam adipisci ut? Illo sint harum expedita quia natus tempore assumenda et officia. Minus voluptate soluta tempora quis unde, culpa quia doloribus odio placeat, animi nam et quidem voluptatem laborum distinctio ut. Fugiat ea ullam, autem tempore molestiae fugit veritatis aut quos eum voluptatum temporibus ducimus quisquam rerum ad hic repellendus dignissimos odio ex tempora numquam. Perferendis explicabo soluta praesentium quas nobis sunt incidunt aliquam distinctio aspernatur, ducimus consequuntur beatae corrupti veritatis.</h2>
+      <h1>Our Garantee</h1>
+      <div className="g-card-row">
+        <Gcards key={array[0].title} arr={array[0]} />
+        <Gcards key={array[1].title} arr={array[1]} />
+      </div>
+      <div className="g-card-row">
+        <Gcards key={array[2].title} arr={array[2]} />
+        <Gcards key={array[3].title} arr={array[3]} />
+      </div>
+
     </div>
   )
 }

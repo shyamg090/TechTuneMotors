@@ -5,21 +5,26 @@
   justify-content: center;
   border: 2px solid rgb(0, 0, 0);
   border-radius: 1rem;
+  background-color: #FFCF96;
   width: 20rem;
   margin: 1rem;
   padding: 1rem;
 }
-.cards > .cards-content {
+.cards > a {
+  text-decoration: none;
+  color: inherit;
+}
+.cards > a > .cards-content {
   display: flex;
   flex-direction: column;
 }
-.cards > .cards-content > .point {
+.cards > a > .cards-content > .point {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   width: 20rem;
 }
-.cards > .cards-content > .point > svg {
+.cards > a > .cards-content > .point > svg {
   margin: 0 1rem;
   width: 1.5rem;
   height: 1.5rem;

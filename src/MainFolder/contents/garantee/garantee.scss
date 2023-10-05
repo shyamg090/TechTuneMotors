@@ -1,9 +1,9 @@
-#price{
+#garuntees {
     >h1 {
         margin: 1rem;
     }
 
-    .pcard-row {
+    .g-card-row {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -11,8 +11,8 @@
 }
 
 @media screen and (max-width : "800px") {
-    #price {
-        .pcard-row {
+    #garuntees {
+        .g-card-row {
             display: flex;
             flex-direction: column;
             align-items: center;

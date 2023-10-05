@@ -11,4 +11,7 @@
 }
 .navbar > a > h2 {
   margin: 0 1rem;
+}
+.navbar > a:hover {
+  color: #BCA37F;
 }/*# sourceMappingURL=navbar.css.map */
