@@ -1,7 +1,7 @@
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   height: 80px;
   border: 3px solid black;
 }
@@ -11,4 +11,4 @@
 }
 .navbar > a > h2 {
   margin: 0 1rem;
-}/*# sourceMappingURL=content.css.map */
+}/*# sourceMappingURL=navbar.css.map */

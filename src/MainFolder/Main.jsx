@@ -4,14 +4,12 @@ import logo from '../images/logo.png';
 import './main.css';
 
 import ServicesCon from './contents/services/ServicesCon';
-import NavbarCon from './contents/NavbarCon';
-import PriceCon from './contents/PriceCon';
-import GaranteeCon from './contents/GaranteeCon';
-import WorkingCon from './contents/WorkingCon';
-import MechanicCon from './contents/MechanicCon';
-import RatingsCon from './contents/RatingsCon';
-
-
+import NavbarCon from './contents/navbar/NavbarCon';
+import PriceCon from './contents/price/PriceCon';
+import GaranteeCon from './contents/garantee/GaranteeCon';
+import WorkingCon from './contents/working/WorkingCon';
+import MechanicCon from './contents/mechanic/MechanicCon';
+import RatingCon from './contents/ratings/RatingsCon';
 
 const Main = () => {
   return (
@@ -22,13 +20,13 @@ const Main = () => {
       </div>
 
       <div className="content">
-        <NavbarCon/>
+        <NavbarCon />
         <ServicesCon />
-        <PriceCon />
-        <GaranteeCon />
+        <PriceCon/>
+        <GaranteeCon/>
         <WorkingCon />
-        <MechanicCon />
-        <RatingsCon/>
+        <MechanicCon/>
+        <RatingCon/>
       </div>
     </>
 

@@ -10,4 +10,4 @@ const MechanicCon = () => {
   )
 }
 
-export default MechanicCon
+export default MechanicCon;

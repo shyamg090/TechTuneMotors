@@ -1,0 +1,8 @@
+#price > h1 {
+  margin: 1rem;
+}
+#price .pcard-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}/*# sourceMappingURL=price.css.map */

@@ -1,0 +1,26 @@
+.pcards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 1rem;
+  width: 20rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+.pcards > .pcards-content {
+  display: flex;
+  flex-direction: column;
+}
+.pcards > .pcards-content > .point {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 20rem;
+}
+.pcards > .pcards-content > .point > svg {
+  margin: 0 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}/*# sourceMappingURL=pcards.css.map */
