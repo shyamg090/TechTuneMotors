@@ -10,7 +10,7 @@ const Pcards = ({ arr, image, link }) => {
                 <h3>{arr?.title}</h3>
                 <div className="pcards-content">
                     <div className="point">
-                        <FaMoneyCheckDollar /> <h4>{arr?.point1}</h4>
+                        <FaMoneyCheckDollar /> <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem nisi eaque voluptatum omnis illum non temporibus quia quam reprehenderit voluptatibus.</h4>
                     </div>
                     {/* <button><Link to={link}> Know More</Link></button> */}
                 </div>

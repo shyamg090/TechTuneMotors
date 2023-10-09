@@ -1,18 +1,19 @@
-#ourservices > h1 {
-  margin: 1rem;
+@import url("../colors.scss");
+.footer {
+  padding: 1rem;
+  background-color: #ffc104;
 }
-#ourservices .card-row {
+.footer .foot-card-row {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
 @media screen and (max-width: 800px) {
-  #ourservices .card-row {
+  .footer .foot-card-row {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    padding: 1rem;
   }
-}/*# sourceMappingURL=services.css.map */
+}/*# sourceMappingURL=footer.css.map */

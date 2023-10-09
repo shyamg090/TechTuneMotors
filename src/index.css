@@ -1,8 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu+Mono&display=swap");
 * {
   scroll-behavior: smooth;
+  font-family: "Ubuntu Mono", monospace;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
   margin: 0;
   padding: 0;
+  background-color: #fdefc0;
 }/*# sourceMappingURL=index.css.map */

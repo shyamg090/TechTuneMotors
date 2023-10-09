@@ -5,6 +5,7 @@ import Batteries from "./OurservicesComponents/Batteries";
 import Wash from "./OurservicesComponents/Wash";
 import Others from "./OurservicesComponents/Others";
 import Main from "./MainFolder/Main";
+import Footer from "./footer/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/wash" element={ <Wash/> } />
         <Route path="/others" element={ <Others/> } />
       </Routes>
+      <Footer/>
 </Router>
   );
 }

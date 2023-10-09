@@ -3,9 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 2px solid rgb(0, 0, 0);
-  border-radius: 1rem;
-  background-color: #fcbce1;
+  background-color: aliceblue;
   width: 20rem;
   margin: 1rem;
   padding: 1rem;
@@ -21,11 +19,20 @@
 .gcards > a > .gcards-content > .point {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-around;
   width: 20rem;
 }
 .gcards > a > .gcards-content > .point > svg {
   margin: 0 1rem;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.gcards:hover {
+  background-color: aliceblue;
+}
+
+@media screen and (max-width: 800px) {
+  .gcards {
+    padding: 0;
+  }
 }/*# sourceMappingURL=gcards.css.map */

@@ -1,16 +1,17 @@
 #ratings {
   overflow: hidden;
-  padding: 1rem 0;
-  white-space: nowrap;
-  padding: 1rem;
 }
 #ratings > h1 {
   margin: 1rem;
 }
-#ratings > .rating-slider {
+#ratings .rcard-row {
   display: inline-flex;
-  animation: 15s slide infinite linear;
-  margin: 1.5rem;
+}
+#ratings .rcard-row > .row1 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+  animation: 120s slide infinite linear;
 }
 @keyframes slide {
   from {
@@ -18,5 +19,17 @@
   }
   to {
     transform: translateX(-100%);
+  }
+}
+#ratings .rcard-row:hover {
+  animation-play-state: paused;
+}
+
+@media screen and (max-width: 800px) {
+  #price .pcard-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
   }
 }/*# sourceMappingURL=ratings.css.map */

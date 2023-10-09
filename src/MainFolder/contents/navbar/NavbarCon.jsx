@@ -4,12 +4,12 @@ import './navbar.css';
 const NavbarCon = () => {
   return (
     <div className='navbar' >
-      <a href="#ourservices"><h2>Our Services</h2></a>
-      <a href="#price"><h2>Prices</h2></a>
-      <a href="#garuntees"><h2>Garuntees</h2></a>
-      <a href="#working"><h2>Working</h2></a>
-      <a href="#specialists"><h2>Specialists</h2></a>
-      <a href="#ratings"><h2>Ratings</h2></a>
+      <a href="#ourservices"><h3>Our Services</h3></a>
+      <a href="#price"><h3>Prices</h3></a>
+      <a href="#garuntees"><h3>Garuntees</h3></a>
+      <a href="#working"><h3>Working</h3></a>
+      <a href="#specialists"><h3>Specialists</h3></a>
+      <a href="#ratings"><h3>Ratings</h3></a>
     </div>
   )
 }

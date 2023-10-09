@@ -1,17 +1,26 @@
+@import url("../../../colors.scss");
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   height: 80px;
-  border: 3px solid black;
+  background-color: #ffc104;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 .navbar > a {
   text-decoration: none;
   color: black;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
 }
-.navbar > a > h2 {
-  margin: 0 1rem;
-}
-.navbar > a:hover {
-  color: #BCA37F;
+
+@media screen and (max-width: 800px) {
+  .navbar {
+    display: none;
+  }
 }/*# sourceMappingURL=navbar.css.map */

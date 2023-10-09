@@ -4,9 +4,9 @@
     align-items: center;
     justify-content: center;
 
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 1rem;
-    background-color: #fcbce1;
+    // border: 2px solid rgb(0, 0, 0);
+    // border-radius: .5rem;
+    background-color: aliceblue;
 
     width: 20rem;
     margin: 1rem;
@@ -22,17 +22,26 @@
         > .point{
             display: flex;
             align-items: center;
-            justify-content: flex-start;
+            justify-content: space-around;
             width: 20rem;
             // padding: .8rem;
             >svg{
                 margin: 0 1rem;
-                width: 1.5rem;
-                height: 1.5rem;
+                width: 2.5rem;
+                height: 2.5rem;
             }
         }
     }
     }
 
+                &:hover {
+            background-color: aliceblue;
+        }
+}
 
+@media screen and (max-width : "800px") {
+   
+        .gcards{
+            padding: 0;
+        }
 }

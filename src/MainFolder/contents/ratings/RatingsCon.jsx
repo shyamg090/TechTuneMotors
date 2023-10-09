@@ -7,16 +7,18 @@ import './ratings.css';
 const Ratings = () => {
     return (
         <div id='ratings'>
-            <h1>Our Customer Reviews</h1>
-            <div className="rating-slider">
-                <Rcards key={array[0].title} arr={array[0]} />
-                <Rcards key={array[0].title} arr={array[0]} />
-                <Rcards key={array[0].title} arr={array[0]} />
-            </div>
-            <div className="rating-slider">
-                <Rcards key={array[0].title} arr={array[0]} />
-                <Rcards key={array[0].title} arr={array[0]} />
-                <Rcards key={array[0].title} arr={array[0]} />
+            <h1>Our Ratings</h1>
+            <div className="rcard-row">
+                <div className="row1">
+                    <Rcards key={array[0].title} arr={array[0]} link={'/price'} />
+                    <Rcards key={array[1].title} arr={array[1]} />
+                    <Rcards key={array[0].title} arr={array[0]} link={'/price'} />
+                </div>
+                <div className="row1">
+                    <Rcards key={array[0].title} arr={array[0]} link={'/price'} />
+                    <Rcards key={array[1].title} arr={array[1]} />
+                    <Rcards key={array[0].title} arr={array[0]} link={'/price'} />
+                </div>
             </div>
         </div>
     )

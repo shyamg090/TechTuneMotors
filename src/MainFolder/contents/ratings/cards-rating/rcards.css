@@ -1,27 +1,25 @@
-.r-cards {
+.rcards {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 2px solid rgb(0, 0, 0);
+  border-radius: 0.5rem;
+  background-color: #f89a9a;
   width: 20rem;
   margin: 1rem;
   padding: 1rem;
 }
-.r-cards > .r-cards-content {
+.rcards > a {
+  text-decoration: none;
+  color: inherit;
+}
+.rcards > a > .rcards-content {
   display: flex;
   flex-direction: column;
-  white-space: nowrap;
 }
-.r-cards > .r-cards-content > .point {
+.rcards > a > .rcards-content > .point {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: flex-start;
-  width: 20rem;
-  box-sizing: border-box;
-}
-.r-cards > .r-cards-content > .point > svg {
-  margin: 0 1rem;
-  width: 1.5rem;
-  height: 1.5rem;
-}/*# sourceMappingURL=Rcards.css.map */
+}/*# sourceMappingURL=rcards.css.map */

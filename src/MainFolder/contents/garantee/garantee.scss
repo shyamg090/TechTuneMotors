@@ -12,11 +12,18 @@
 
 @media screen and (max-width : "800px") {
     #garuntees {
+        padding: 0;
+        h1{
+            margin: 0;
+            padding: .5rem;
+        }
+        margin: 0;
         .g-card-row {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: space-evenly;
+            padding: 0;
         }
     }
 }

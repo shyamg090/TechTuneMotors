@@ -1,4 +1,5 @@
-.pcards {
+
+.f-cards {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,7 +7,6 @@
 
     // border: 2px solid rgb(0, 0, 0);
     border-radius: .5rem;
-    background-color: #0000004a;
 
     width: 20rem;
     margin: 1rem;
@@ -16,7 +16,7 @@
         text-decoration: none;
         color: inherit;
 
-        >.pcards-content {
+        >.f-cards-content {
             display: flex;
             flex-direction: column;
 
@@ -30,34 +30,27 @@
                 // padding: .8rem;
                 >svg {
                     margin: 0 1rem;
-                    width: 5rem;
-                    height: 5rem;
+                    width: 1.5rem;
+                    height: 1.5rem;
                 }
             }
         }
+
+
     }
 
-                &:hover {
-            background-color: aliceblue;
-        }
 }
-@media screen and (max-width:"800px") {
-    .pcards {
-    padding: 0rem;
-        >a {
-            h3{
-                text-align: center;
-            }
-        >.pcards-content {
-            >.point {
-                >svg {
-                    margin: 0 1rem;
-                    width: 5rem;
-                    height: 5rem;
-                }
-            }
-        }
+@media screen and (max-width : "800px") {
+    .f-cards {
+
+    width: 20rem;
+    margin: 0rem;
+    padding: 1rem;
+
+    >h3,h4 {
+        text-decoration: none;
+        color: inherit;
+        font-size: smaller;
     }
 }
-
 }

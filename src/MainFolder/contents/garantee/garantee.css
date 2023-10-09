@@ -8,10 +8,19 @@
 }
 
 @media screen and (max-width: 800px) {
+  #garuntees {
+    padding: 0;
+    margin: 0;
+  }
+  #garuntees h1 {
+    margin: 0;
+    padding: 0.5rem;
+  }
   #garuntees .g-card-row {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    padding: 0;
   }
 }/*# sourceMappingURL=garantee.css.map */

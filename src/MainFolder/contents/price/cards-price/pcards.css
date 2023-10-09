@@ -3,9 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 2px solid rgb(0, 0, 0);
-  border-radius: 1rem;
-  background-color: #f89a9a;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.2901960784);
   width: 20rem;
   margin: 1rem;
   padding: 1rem;
@@ -26,6 +25,23 @@
 }
 .pcards > a > .pcards-content > .point > svg {
   margin: 0 1rem;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 5rem;
+  height: 5rem;
+}
+.pcards:hover {
+  background-color: aliceblue;
+}
+
+@media screen and (max-width: 800px) {
+  .pcards {
+    padding: 0rem;
+  }
+  .pcards > a h3 {
+    text-align: center;
+  }
+  .pcards > a > .pcards-content > .point > svg {
+    margin: 0 1rem;
+    width: 5rem;
+    height: 5rem;
+  }
 }/*# sourceMappingURL=pcards.css.map */

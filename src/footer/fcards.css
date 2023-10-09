@@ -1,0 +1,42 @@
+.f-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  width: 20rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+.f-cards > a {
+  text-decoration: none;
+  color: inherit;
+}
+.f-cards > a > .f-cards-content {
+  display: flex;
+  flex-direction: column;
+}
+.f-cards > a > .f-cards-content > .point {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 20rem;
+}
+.f-cards > a > .f-cards-content > .point > svg {
+  margin: 0 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+@media screen and (max-width: 800px) {
+  .f-cards {
+    width: 20rem;
+    margin: 0rem;
+    padding: 1rem;
+  }
+  .f-cards > h3, .f-cards h4 {
+    text-decoration: none;
+    color: inherit;
+    font-size: smaller;
+  }
+}/*# sourceMappingURL=fcards.css.map */
