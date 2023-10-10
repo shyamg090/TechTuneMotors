@@ -1,10 +1,11 @@
 import React from 'react'
-import Common from './Common';
+import Common from '../OurservicesComponents/common/Common'
+import { servicesArr } from '../MainFolder/information'
 
 const Others = () => {
   return (
-      <div>Others
-          <Common />
+      <div>
+      <Common key={4} array={servicesArr[3]} />
     </div>
   )
 }

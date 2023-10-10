@@ -1,4 +1,6 @@
-.gcards{
+@import '../../../../colors.scss';
+
+.gcards {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,7 +8,7 @@
 
     // border: 2px solid rgb(0, 0, 0);
     // border-radius: .5rem;
-    background-color: aliceblue;
+    background-color: $bg-color;
 
     width: 20rem;
     margin: 1rem;
@@ -15,33 +17,38 @@
     >a {
         text-decoration: none;
         color: inherit;
-    > .gcards-content{
-        display: flex;
-        flex-direction: column;
-        // justify-content: flex-start;
-        > .point{
+
+        >.gcards-content {
             display: flex;
-            align-items: center;
-            justify-content: space-around;
-            width: 20rem;
-            // padding: .8rem;
-            >svg{
-                margin: 0 1rem;
-                width: 2.5rem;
-                height: 2.5rem;
+            flex-direction: column;
+
+            // justify-content: flex-start;
+            >.point {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                width: 20rem;
+
+                // padding: .8rem;
+                >svg {
+                    margin: 0 1rem;
+                    width: 2.5rem;
+                    height: 2.5rem;
+                }
             }
         }
     }
-    }
 
-                &:hover {
-            background-color: aliceblue;
-        }
+    &:hover {
+        background-color: $card-color;
+        color: $text;
+
+    }
 }
 
 @media screen and (max-width : "800px") {
-   
-        .gcards{
-            padding: 0;
-        }
+
+    .gcards {
+        padding: 0;
+    }
 }

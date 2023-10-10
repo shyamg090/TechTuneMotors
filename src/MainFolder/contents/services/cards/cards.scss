@@ -1,3 +1,5 @@
+@import '../../../../colors.scss';
+
 .cards {
     display: flex;
     flex-direction: column;
@@ -6,7 +8,7 @@
 
     // border: 2px solid rgb(0, 0, 0);
     border-radius: .5rem;
-    background-color: #00000054;
+    background-color: $bg-color;
 
     width: 20rem;
     margin: 1rem;
@@ -15,6 +17,10 @@
     >a {
         text-decoration: none;
         color: inherit;
+
+        >h3 {
+            text-align: center;
+        }
 
         >.cards-content {
             display: flex;
@@ -40,7 +46,8 @@
     }
 
     &:hover {
-        background-color: aliceblue;
+        background-color: $card-color;
+        color: $text;
     }
 }
 

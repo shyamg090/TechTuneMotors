@@ -1,3 +1,5 @@
+@import '../../../../colors.scss';
+
 .rcards {
     display: flex;
     flex-direction: column;
@@ -6,28 +8,35 @@
 
     // border: 2px solid rgb(0, 0, 0);
     border-radius: .5rem;
-    background-color: #f89a9a;
+    background-color: $bg-color;
 
     width: 20rem;
     margin: 1rem;
     padding: 1rem;
 
-    >a {
-        text-decoration: none;
-        color: inherit;
+    >img {
+        width: 7rem;
+        height: 7rem;
+        border-radius: 10rem;
+    }
 
-        >.rcards-content {
+    >.rcards-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        // justify-content: flex-start;
+        >.r-point {
+
             display: flex;
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
 
-
-
-            // justify-content: flex-start;
-            >.point {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
+            >h4
+            {
+                text-align: center;
+                padding: .5rem;
             }
         }
     }

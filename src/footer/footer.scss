@@ -1,9 +1,9 @@
-@import url('../colors.scss');
+@import '../colors.scss';
 
 
 .footer {
     padding: 1rem;
-    background-color: #ffc104;
+    background-color: $bg-color;
     
     .foot-card-row {
         display: flex;

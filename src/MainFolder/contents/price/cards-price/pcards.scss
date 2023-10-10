@@ -1,3 +1,5 @@
+@import '../../../../colors.scss';
+
 .pcards {
     display: flex;
     flex-direction: column;
@@ -6,7 +8,7 @@
 
     // border: 2px solid rgb(0, 0, 0);
     border-radius: .5rem;
-    background-color: #0000004a;
+    background-color: $bg-color;
 
     width: 20rem;
     margin: 1rem;
@@ -15,19 +17,19 @@
     >a {
         text-decoration: none;
         color: inherit;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        >img{
+            width: 8rem;
+            height: 8rem;
+        }
 
         >.pcards-content {
-            display: flex;
-            flex-direction: column;
-
-            // justify-content: flex-start;
             >.point {
-                display: flex;
-                align-items: center;
-                justify-content: flex-start;
-                width: 20rem;
 
-                // padding: .8rem;
                 >svg {
                     margin: 0 1rem;
                     width: 5rem;
@@ -37,27 +39,31 @@
         }
     }
 
-                &:hover {
-            background-color: aliceblue;
-        }
+    &:hover {
+        background-color: $card-color;
+        color: $text;
+    }
 }
+
 @media screen and (max-width:"800px") {
     .pcards {
-    padding: 0rem;
+        padding: 0rem;
+
         >a {
-            h3{
+            h3 {
                 text-align: center;
             }
-        >.pcards-content {
-            >.point {
-                >svg {
-                    margin: 0 1rem;
-                    width: 5rem;
-                    height: 5rem;
+
+            >.pcards-content {
+                >.point {
+                    >svg {
+                        margin: 0 1rem;
+                        width: 5rem;
+                        height: 5rem;
+                    }
                 }
             }
         }
     }
-}
 
 }

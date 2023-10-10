@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 0.5rem;
-  background-color: rgba(0, 0, 0, 0.2901960784);
+  background-color: #ffc104;
   width: 20rem;
   margin: 1rem;
   padding: 1rem;
@@ -12,16 +12,14 @@
 .pcards > a {
   text-decoration: none;
   color: inherit;
-}
-.pcards > a > .pcards-content {
   display: flex;
   flex-direction: column;
-}
-.pcards > a > .pcards-content > .point {
-  display: flex;
   align-items: center;
-  justify-content: flex-start;
-  width: 20rem;
+  justify-content: center;
+}
+.pcards > a > img {
+  width: 8rem;
+  height: 8rem;
 }
 .pcards > a > .pcards-content > .point > svg {
   margin: 0 1rem;
@@ -29,7 +27,8 @@
   height: 5rem;
 }
 .pcards:hover {
-  background-color: aliceblue;
+  background-color: #f7e880;
+  color: #6e0e05;
 }
 
 @media screen and (max-width: 800px) {

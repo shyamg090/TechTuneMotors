@@ -1,4 +1,4 @@
-@import url('../../../colors.scss');
+@import '../../../colors.scss';
 
 .navbar {
     display: flex;
@@ -16,14 +16,21 @@
         text-decoration: none;
         color: black;
         height: 100%;
+        width: 100%;
         
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-evenly;
 
         padding: 0 1.5rem;
 
+        &:hover{
+            background-color: $card-color;
+            color: $text;
+        }
+
     }
+
 
 }
 @media screen and (max-width : "800px") {

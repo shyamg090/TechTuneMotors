@@ -1,3 +1,5 @@
+@import '../../../colors.scss';
+
 #working{
     h1{
         margin: 1rem;
@@ -16,7 +18,7 @@
             margin: 1.5rem;
             padding: 1rem;
 
-            background-color: aliceblue;
+            background-color: $bg-color;
 
             svg{
                 width: 3rem;
@@ -44,8 +46,6 @@
             svg{
                 width: 2rem;
                 height: 2rem;
-                color: rgb(0, 0, 0);
-                // background-color: black;
             }
         }
     }

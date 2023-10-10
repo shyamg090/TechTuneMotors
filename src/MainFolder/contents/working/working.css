@@ -11,7 +11,7 @@
   justify-content: space-around;
   margin: 1.5rem;
   padding: 1rem;
-  background-color: aliceblue;
+  background-color: #ffc104;
 }
 #working ul li svg {
   width: 3rem;
@@ -35,6 +35,5 @@
   #working ul li svg {
     width: 2rem;
     height: 2rem;
-    color: rgb(0, 0, 0);
   }
 }/*# sourceMappingURL=working.css.map */
