@@ -27,10 +27,6 @@
   width: 2.5rem;
   height: 2.5rem;
 }
-.gcards:hover {
-  background-color: #f7e880;
-  color: #6e0e05;
-}
 
 @media screen and (max-width: 800px) {
   .gcards {

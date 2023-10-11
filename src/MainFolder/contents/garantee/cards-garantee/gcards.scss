@@ -38,12 +38,6 @@
             }
         }
     }
-
-    &:hover {
-        background-color: $card-color;
-        color: $text;
-
-    }
 }
 
 @media screen and (max-width : "800px") {

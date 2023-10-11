@@ -11,13 +11,20 @@ import WorkingCon from './contents/working/WorkingCon';
 import MechanicCon from './contents/mechanic/MechanicCon';
 import RatingCon from './contents/ratings/RatingsCon';
 
+import { Form } from './form/Form';
+
 const Main = () => {
   return (
     <>
-      <img className='logo' src={logo} alt="logo" />
-      <div className='banner' >
-        <img src={bannerimg} alt="banner" />
+      <div className="logo">
+        <img  src={logo} alt="logo" />
       </div>
+
+      <div className='banner' >
+        <img className='imagebg' src={bannerimg} alt="banner" />
+        <Form />
+      </div>
+
 
       <div className="content">
         <NavbarCon />
@@ -28,10 +35,18 @@ const Main = () => {
         <MechanicCon/>
         <RatingCon/>
       </div>
-    </>
 
-    
+    </>
   )
 }
 
 export default Main;
+
+/*
+
+
+
+
+ 
+
+*/

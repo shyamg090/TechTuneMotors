@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 60%;
   margin: 1rem;
   padding: 1rem;
 }
@@ -39,6 +39,7 @@
 @media screen and (max-width: 800px) {
   .com-cards {
     flex-direction: column;
+    width: 100%;
     margin: 1rem 0;
     padding: 0rem;
   }

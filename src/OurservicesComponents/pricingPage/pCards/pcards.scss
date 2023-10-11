@@ -1,0 +1,77 @@
+@import '../../../colors.scss';
+
+.pri-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    margin: 1rem;
+    padding: 1rem;
+
+        >.pri-card-img{
+        >img{
+            width: 16rem;
+            height: 14rem;
+        }
+    }
+
+        >.pri-cards-content{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 0 1.5rem;
+
+        width: 60%;
+
+        
+        >.pri-point{
+            // padding: .6rem;
+            font-size: 1.2rem;
+            
+        }
+        >.pri-point2{
+            display: flex;
+            align-items: flex-end;
+            width: 100%;
+            justify-content: flex-end;
+            font-size: 1.3rem;
+
+            >button{
+                width: 6rem;
+                height: 3rem;
+                border: none;
+                background-color: $text;
+                color: $bg-color;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:'800px') {
+    .pri-cards{
+    flex-direction: column;
+
+    margin: 1rem 0;
+    padding: 0rem;
+
+    >.pri-card-img{
+        >img{
+            width: 12rem;
+            height: 10rem;
+        }
+    }
+    >.pri-cards-content{
+        padding: 1rem;
+        >.point{
+            font-size: 1.2rem;
+            width: 100%;
+
+            >h3{
+                text-align: center;
+            }
+        }
+    }
+}
+}

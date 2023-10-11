@@ -1,5 +1,6 @@
 #working h1 {
   margin: 1rem;
+  text-align: center;
 }
 #working ul {
   padding: 1rem;
@@ -12,6 +13,10 @@
   margin: 1.5rem;
   padding: 1rem;
   background-color: #ffc104;
+}
+#working ul li h2 {
+  width: 60%;
+  text-align: center;
 }
 #working ul li svg {
   width: 3rem;
@@ -29,8 +34,11 @@
   }
   #working ul li {
     margin: 1rem;
-    padding: 1rem;
+    padding: 0rem;
     justify-content: space-evenly;
+  }
+  #working ul li h2 {
+    font-size: 1rem;
   }
   #working ul li svg {
     width: 2rem;

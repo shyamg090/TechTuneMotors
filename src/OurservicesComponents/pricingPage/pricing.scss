@@ -1,0 +1,22 @@
+@import '../../colors.scss';
+
+.pricingPage{
+
+    >.pri-back{
+        height: 50px;
+        margin: 0;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+        background-color: $bg-color;
+        // backdrop-filter: blur(5px);
+
+        >a{
+            text-decoration: none;
+            color: $text-color;
+        }
+    }
+}

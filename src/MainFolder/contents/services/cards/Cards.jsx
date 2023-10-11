@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Cards = ({ arr, image, link }) => {
   return (
-    <div className='cards'>
+    <div className='cards' style={{ backgroundImage: `url(${arr?.imageLink})` }} >
       <Link to={link}>
         <h3>{arr?.title}</h3>
         <div className="cards-content">

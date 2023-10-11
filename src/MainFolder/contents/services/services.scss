@@ -1,12 +1,15 @@
 #ourservices {
     >h1 {
         margin: 1rem;
+                text-align: center;
+
     }
 
     .card-row {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        
     }
 }
 
@@ -17,7 +20,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: space-evenly;
-            padding: 1rem;
+            padding: 2rem;
         }
     }
 }

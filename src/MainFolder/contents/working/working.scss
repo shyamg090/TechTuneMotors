@@ -3,6 +3,8 @@
 #working{
     h1{
         margin: 1rem;
+                text-align: center;
+
     }
     ul{
         padding: 1rem;
@@ -19,6 +21,13 @@
             padding: 1rem;
 
             background-color: $bg-color;
+
+            // font-size: 1.5rem;
+
+            h2{
+                width: 60%;
+                text-align: center;
+            }
 
             svg{
                 width: 3rem;
@@ -40,8 +49,12 @@
         li{          
             // width: ;
             margin: 1rem;
-            padding: 1rem;
+            padding: 0rem;
             justify-content: space-evenly;
+
+            h2{
+                font-size: 1rem;
+            }
             
             svg{
                 width: 2rem;

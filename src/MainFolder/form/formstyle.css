@@ -1,0 +1,32 @@
+.card-part {
+  position: fixed;
+  top: 10rem;
+  right: 3rem;
+  bottom: 30rem;
+  z-index: 100;
+  width: 30%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #ffc104;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 1500px) {
+  .card-part {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+  }
+}/*# sourceMappingURL=formstyle.css.map */

@@ -6,17 +6,25 @@
     align-items: center;
     justify-content: center;
 
-    // border: 2px solid rgb(0, 0, 0);
-    border-radius: .5rem;
-    background-color: $bg-color;
+    border-radius: 1rem;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     width: 20rem;
     margin: 1rem;
-    padding: 1rem;
+    // padding: 1rem;
 
     >a {
         text-decoration: none;
         color: inherit;
+
+        width: inherit;
+        height: inherit;
+        color: $white;
+        background-color: rgba(0, 0, 0, 0.625);
+        backdrop-filter: blur(2px);
 
         >h3 {
             text-align: center;
@@ -56,7 +64,7 @@
         padding: 0rem;
 
         >a {
-            padding: 1rem;
+            padding: 0rem;
 
             >h3 {
                 padding: 0 1rem;

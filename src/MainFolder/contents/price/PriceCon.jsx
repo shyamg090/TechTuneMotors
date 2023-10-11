@@ -9,8 +9,8 @@ const PriceCon = () => {
     <div id='price'>
       <h1>Our Price</h1>
       <div className="pcard-row">
-        <Pcards key={1} arr={priceArr[0]} link={'/price'} />
-        <Pcards key={2} arr={priceArr[1]} link={'/price'} />
+        <Pcards key={1} arr={priceArr[0]} link={'/pricing'} />
+        <Pcards key={2} arr={priceArr[1]} link={'/pricing'} />
       </div>
     </div>
   )

@@ -1,13 +1,11 @@
 import React from 'react'
-import banner from '../../../images/bannerimg.png'
 import './com.css';
 
 const Cardscommon = ({ arr }) => {
     return (
         <div className='com-cards'>
-            
             <div className="com-card-img">
-                <img src={banner} alt="simpleimg" />
+                <img src={arr?.imageLink} alt="simpleimg" />
             </div>
 
             <div className="com-cards-content">

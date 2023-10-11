@@ -1,0 +1,15 @@
+.pricingPage > .pri-back {
+  height: 50px;
+  margin: 0;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  background-color: #ffc104;
+}
+.pricingPage > .pri-back > a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=pricing.css.map */

@@ -3,6 +3,7 @@
 }
 #price > h1 {
   margin: 1rem;
+  text-align: center;
 }
 #price .pcard-row {
   display: flex;
