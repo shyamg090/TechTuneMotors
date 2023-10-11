@@ -9,16 +9,20 @@ const Home = () => {
 
     function fun() {
         res.setpage(1);
+        const val = res.values;
+        res.setvalues({...val })
+        console.log(res.values);
     }
 
     return (
             <div className="card-part">
                 <h1 className="hero">Experience the best car service in Bangalore</h1>
                 <div className="follow">
-                    <p id="getc">Get instant quotes and best service</p>
-                    <div className="chooseli">
-                        <Link to="/" className="linkcar" onClick={fun}><p id="choosecar">Choose car </p><div>&#129171;</div></Link>
-                    </div>
+                    <p>Get instant quotes and best service</p>
+                    <Link to="/" className="linkcar" onClick={fun}>
+                        <p id="choosecar">Choose car </p>
+                        <h1>&#129171;</h1>
+                    </Link>
                 </div>
                 <h3>250,000+ Happy Customers Served</h3>
             </div>

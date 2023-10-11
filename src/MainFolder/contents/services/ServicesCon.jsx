@@ -6,7 +6,7 @@ import { array } from '../../information';
 
 
 const ServicesCon = () => {
-  console.log(array);
+  // console.log(array);
 
   return (
     <div id='ourservices'>

@@ -1,17 +1,14 @@
-.common > .back {
-  height: 50px;
-  margin: 0;
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: sticky;
-  top: 0;
-  background-color: #ffc104;
-}
-.common > .back > a {
+.common .backButton {
+  position: absolute;
+  z-index: 111;
+  top: 5rem;
+  left: 4rem;
   text-decoration: none;
   color: black;
+}
+.common .backButton svg {
+  width: 3.5rem;
+  height: 3.5rem;
 }
 .common .com-card-row {
   display: flex;
@@ -21,11 +18,13 @@
 }
 
 @media screen and (max-width: 800px) {
-  #ourservices .card-row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 1rem;
+  .common .backButton {
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+  }
+  .common .backButton svg {
+    width: 3rem;
+    height: 3rem;
   }
 }/*# sourceMappingURL=common.css.map */

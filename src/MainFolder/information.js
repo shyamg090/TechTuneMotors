@@ -188,3 +188,37 @@ exports.works = [
     "Pickup and Service",
     "Delivery"
 ];
+
+
+exports.footerArr = [
+    {   
+        "id" : "1",
+        "point1": "1234 Elm Street, Cityville, State, 12345",
+        "point2": "Your Company Name",
+        "point3": "Delivering Excellence in Car Detailing",
+        "point4": "https://www.yourwebsite.com",
+    },
+    {
+        "id": "2",
+        "point1": "https://www.facebook.com/YourCompany",
+        "point2": "https://www.twitter.com/YourCompany",
+        "point3": "https://www.instagram.com/YourCompany",
+        "point4": "https://www.linkedin.com/company/YourCompany"
+    },
+    {
+        "id": "3",
+        "point1": "Detailing Services",
+        "point2": "Washing",
+        "point3": "Battery Services",
+        "point4": "Other Services"
+    },
+    {
+        "id": "4",
+        "point1 G": "https://shyamg.netlify.app/",
+        "point2": "https://www.linkedin.com/in/yourlinkedinprofile",
+        "point3": "https://shyamg.netlify.app/",
+        "point4": "https://www.linkedin.com/in/yourlinkedinprofile"
+    }
+
+
+]

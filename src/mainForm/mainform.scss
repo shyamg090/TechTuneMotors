@@ -1,0 +1,111 @@
+.form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .backButton {
+        position: absolute;
+        z-index: 111;
+        top: 2rem;
+        left: 3rem;
+
+        text-decoration: none;
+        color: black;
+
+        svg {
+            width: 3.5rem;
+            height: 3.5rem;
+        }
+    }
+
+    form {
+        width: 60%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // justify-content: space-evenly;
+        padding: 2rem;
+        margin: 2rem 0;
+
+        background-color: rgba(240, 248, 255, 0.362);
+        backdrop-filter: blur(7px);
+
+        >.form-group {
+            width: 100%;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // flex-direction: column;
+
+            padding: 1rem;
+            font-size: 1.3rem;
+
+            label {
+                width: 10rem;
+            }
+
+            input {
+                margin: 0 1rem;
+                width: 40%;
+                height: 1.5rem;
+            }
+
+            textarea {
+                margin: 0 1rem;
+                width: 40%;
+                height: 4rem;
+            }
+
+            select {
+                margin: 0 1rem;
+                width: 40%;
+                height: 2rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width : '1030px') {
+    .form-container {
+        flex-direction: column;
+        align-items: flex-start;
+
+        .backButton {
+            position: relative;
+            top: 2rem;
+            left: 2rem;
+
+            svg {
+                width: 3rem;
+                height: 3rem;
+            }
+        }
+
+        form {
+            width: 100%;
+
+            display: flex;
+            // flex-direction: column;
+            align-items: center;
+            // justify-content: space-evenly;
+            padding: 1rem;
+            margin: 0rem;
+
+            >.form-group {
+                width: 100%;
+                flex-direction: column;
+
+                padding: 1rem;
+                font-size: 1.3rem;
+
+            }
+        }
+    }
+}

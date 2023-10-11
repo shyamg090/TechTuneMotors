@@ -1,5 +1,6 @@
 import React from 'react'
 import './pcards.css';
+import { Link } from 'react-router-dom';
 
 const Pcards = ({arr}) => {
   return (
@@ -17,7 +18,7 @@ const Pcards = ({arr}) => {
                   <h3>{arr?.description }</h3>
               </div>
               <div className="pri-point2">
-                  <button>CheckOut</button>
+                  <button><Link to={'/mainform'}>Check Out</Link></button>
               </div>
           </div>
       </div>

@@ -1,44 +1,185 @@
 .card-part {
-
     position: fixed;
     top: 10rem;
     right: 3rem;
     bottom: 30rem;
-
     z-index: 100;
-
     width: 30%;
     height: 50%;
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-
     padding: 2rem;
-
     background-color: #ffc104;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-    
+    .top-part {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h1 {
+            width: 2rem;
+            // height: 1.5rem;
+            svg {
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+        }
+
+        h2 {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    .hero {
+        font-size: 2rem;
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+
+    .follow {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        margin-bottom: 1rem;
+
+        p {
+            font-size: 1.4rem;
+        }
+
+        .linkcar {
+            border: 2px solid black;
+            text-decoration: none;
+            color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            // margin-left: 0.2em;
+            padding: 0 1rem;
+
+            div {
+                width: 2rem;
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .logo-area {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        .logo-img {
+            width: 7em;
+            padding: 1rem;
+        }
+    }
+
+
+    .form-div {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 1em;
+        width: 100%;
+        // padding: 1rem;
+
+        >input {
+            position: relative;
+            width: 18em;
+            height: 3em;
+            padding-left: 0.5em;
+            border: 1px solid darkgray;
+            border-radius: 0.1em;
+        }
+
+        #sub {
+            width: 8em;
+            padding-left: 0;
+            border: none;
+            /* background-color: red; */
+            border-radius: 0.2em;
+
+            &:hover {
+                background-color: #ff8a04;
+            }
+        }
+    }
+
 }
 
-@media screen and (max-width : "1500px") {
-    .card-part{
+@media screen and (max-width: 1500px) {
+    .card-part {
         position: relative;
-
+        z-index: 1;
         top: 0;
         right: 0;
         bottom: 0;
-
-        width: 100%;
-        height: 100%;
-
+        width: inherit;
+        height: 50vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
 
-        padding: .5rem;
+        padding: 1rem;
+        margin: 1rem;
+
+        // font-size: 1rem;
+
+        .hero{
+            font-size: 1.6rem;
+        }
+
+        .logo-area {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .logo-img {
+                width: 6em;
+                padding: 1rem;
+            }
+        }
+
+        .form-div {
+            height: 100%;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 20rem;
+            padding: 1rem;
+            margin: 1rem;
+
+            >input {
+                position: relative;
+                width: 18em;
+                height: 3em;
+                padding-left: 0.5em;
+                border: 1px solid darkgray;
+                border-radius: 0.1em;
+            }
+
+            #sub {
+                width: 8em;
+                padding-left: 0;
+                border: none;
+                border-radius: 0.2em;
+            }
+        }
     }
 }
+
+/*# sourceMappingURL=formstyle.css.map */

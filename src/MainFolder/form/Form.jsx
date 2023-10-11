@@ -13,12 +13,13 @@ const AppContext = createContext()
 
 const Form = () => {
 
+    let count = 0;
     let [page, setpage] = useState(0)
-    let [values, setvalues] = useState({})
+    let [values, setvalues] = useState({id : count})
 
     return (
         <div>
-            <AppContext.Provider value={{ page, setpage, values, setvalues }}>
+            <AppContext.Provider value={{ page, setpage, values, setvalues, count }}>
                 <Routes>
                     <Route path="/" element={<Control />} />
                 </Routes>
