@@ -220,5 +220,4 @@ exports.footerArr = [
         "point4": ""
     }
 
-
 ]

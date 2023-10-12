@@ -7,12 +7,12 @@ const Home = () => {
 
     let res = useContext(AppContext);
 
-    function fun() {
+    async function fun() {
+        // const val = res.values;
+        // await res.setvalues({ ...val })
         res.setpage(1);
-        const val = res.values;
-        res.setvalues({...val })
-        console.log(res.values);
     }
+    console.log(res.values);
 
     return (
             <div className="card-part">

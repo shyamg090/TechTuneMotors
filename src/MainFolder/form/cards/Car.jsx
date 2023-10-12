@@ -8,13 +8,13 @@ import image1 from '../../../images/a (1).png';
 function Car() {
     let res = useContext(AppContext);
 
-    function fun(event) {
-        res.setvalues((prev) => {
-            return { ...prev, car: event.target.name };
+    async function fun(event) {
+        await res.setvalues((prev) => {
+            return { ...prev, car : event.target.name };
         })
-        console.log(res.values);
         res.setpage(2);
     }
+    console.log(res.values);
 
     function backFun() {
         res.setpage(0);
@@ -24,7 +24,7 @@ function Car() {
         <div className="card-part">
             <div className="top-part">
                 <h1 onClick={backFun} ><BiArrowBack /></h1>
-                <h2>Enter Contact Information</h2>
+                <h2>Select Car</h2>
             </div>
             <div className="logo-area">
                 <Link to="/" ><img className="logo-img" src={image1} onClick={fun} alt="imagelogo" name="benz"></img></Link>

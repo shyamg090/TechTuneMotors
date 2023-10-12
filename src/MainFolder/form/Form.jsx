@@ -15,7 +15,7 @@ const Form = () => {
 
     let count = 0;
     let [page, setpage] = useState(0)
-    let [values, setvalues] = useState({id : count})
+    let [values, setvalues] = useState({})
 
     return (
         <div>
