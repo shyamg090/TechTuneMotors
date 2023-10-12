@@ -2,8 +2,7 @@
   position: fixed;
   top: 10rem;
   right: 3rem;
-  bottom: 30rem;
-  z-index: 100;
+  z-index: 0;
   width: 30%;
   height: 50%;
   display: flex;

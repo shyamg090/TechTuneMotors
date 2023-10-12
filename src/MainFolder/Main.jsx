@@ -15,18 +15,18 @@ import { Form } from './form/Form';
 
 const Main = () => {
   return (
-    <>
+    <div className='body-div'>
       <div className="logo">
         <img  src={logo} alt="logo" />
       </div>
 
       <div className='banner' >
         <img className='imagebg' src={bannerimg} alt="banner" />
-        <Form />
       </div>
 
 
       <div className="content">
+        <Form />
         <NavbarCon />
         <ServicesCon />
         <PriceCon/>
@@ -36,7 +36,7 @@ const Main = () => {
         <RatingCon/>
       </div>
 
-    </>
+    </div>
   )
 }
 

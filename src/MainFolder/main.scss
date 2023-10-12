@@ -1,77 +1,83 @@
 @import '../colors.scss';
 
-.logo {
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    z-index: 1111;
+.body-div {
+    position: relative;
 
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-
-    >img {
-        width: 20rem;
-        height: 4rem;
-        margin: 1rem;
-
-        // width: 100%;
-        // height: 100%;
-    }
-}
-
-.banner {
-    width: 100%;
-    height: 100vh;
-    background-color: #ffae0053;
-    // position: relative;
-
-    >img {
+    .logo {
+        position: absolute;
         width: 100%;
-        height: 100%;
-        filter: blur(2px);
-        // filter: brightness();
-    }
-
-
-}
-
-.content {
-    width: 60%;
-    height: 100%;
-    // background-color: rgb(255, 255, 255);
-    color: #000000;
-    box-sizing: border-box;
-
-    padding: 0 1rem;
-}
-
-@media screen and (max-width : "1500px") {
-    .banner {
-        width: 100%;
-        height: 100%;
-
-        // background-color: aliceblue;
+        height: 100px;
+        z-index: 1111;
 
         display: flex;
-        flex-direction: column;
         align-items: center;
-        justify-content: center;
-
-        margin: 1.5rem 0;
+        justify-content: flex-start;
 
         >img {
-            position: absolute;
-            z-index: -1;
-            width: 100%;
-            height: 100%;
+            width: 20rem;
+            height: 4rem;
+            margin: 1rem;
 
-            display: none;
+            // width: 100%;
+            // height: 100%;
         }
     }
 
+    .banner {
+        width: 100%;
+        height: 100vh;
+        background-color: #ffae0053;
+        // position: relative;
+
+        >img {
+            width: 100%;
+            height: 100%;
+            filter: blur(2px);
+            // filter: brightness();
+        }
+
+
+    }
+
     .content {
-        width: 100vw;
-        padding: 0;
+        width: 60%;
+        height: 100%;
+        // background-color: rgb(255, 255, 255);
+        color: #000000;
+        box-sizing: border-box;
+
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (max-width : "1500px") {
+    .body-div {
+        .logo {
+            position: relative;
+            
+        }
+
+        .banner {
+            width: 100%;
+            height: 100%;
+
+            // background-color: aliceblue;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            margin: 1.5rem 0;
+
+            >img {
+                display: none;
+            }
+        }
+
+        .content {
+            width: 100vw;
+            padding: 0;
+        }
     }
 }
