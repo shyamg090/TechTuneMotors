@@ -200,10 +200,10 @@ exports.footerArr = [
     },
     {
         "id": "2",
-        "point1": "https://www.facebook.com/YourCompany",
-        "point2": "https://www.twitter.com/YourCompany",
-        "point3": "https://www.instagram.com/YourCompany",
-        "point4": "https://www.linkedin.com/company/YourCompany"
+        "point1": "Facebook",
+        "point2": "Twitter",
+        "point3": "Instagram",
+        "point4": "Linkedin"
     },
     {
         "id": "3",
@@ -214,10 +214,10 @@ exports.footerArr = [
     },
     {
         "id": "4",
-        "point1 G": "https://shyamg.netlify.app/",
-        "point2": "https://www.linkedin.com/in/yourlinkedinprofile",
-        "point3": "https://shyamg.netlify.app/",
-        "point4": "https://www.linkedin.com/in/yourlinkedinprofile"
+        "point1 G": "Made By",
+        "point2": "Shyam G",
+        "point3": "",
+        "point4": ""
     }
 
 
