@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 0.5rem;
-  width: 20rem;
+  width: 100%;
   margin: 1rem;
   padding: 1rem;
 }
@@ -15,12 +15,13 @@
 .f-cards > a > .f-cards-content {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .f-cards > a > .f-cards-content > .point {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  width: 20rem;
+  width: 100%;
 }
 .f-cards > a > .f-cards-content > .point > svg {
   margin: 0 1rem;
@@ -28,11 +29,17 @@
   height: 1.5rem;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1080px) {
   .f-cards {
-    width: 20rem;
+    width: 100% rem;
     margin: 0rem;
-    padding: 1rem;
+  }
+  .f-cards .f-cards-content {
+    width: 100%;
+  }
+  .f-cards .f-cards-content .point {
+    width: 100%;
+    text-align: center;
   }
   .f-cards > h3, .f-cards h4 {
     text-decoration: none;

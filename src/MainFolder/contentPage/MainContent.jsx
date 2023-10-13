@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React from 'react'
 
 import NavbarCon from '../navbar/NavbarCon';
 import ServicesCon from '../services/ServicesCon';
@@ -9,13 +9,10 @@ import MechanicCon from '../mechanic/MechanicCon';
 import RatingCon from '../ratings/RatingsCon';
 
 
-import { MainContext } from './ContentPage';
 
 
 const MainContent = () => {
 
-    const result = useContext(MainContext);
-    console.log("maincontent: " + result.conpage);
 
     return (
         <>

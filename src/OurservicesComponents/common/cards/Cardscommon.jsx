@@ -1,6 +1,5 @@
 import React from 'react'
 import './com.css';
-import { Link } from 'react-router-dom';
 
 const Cardscommon = ({ arr }) => {
     return (
@@ -21,7 +20,7 @@ const Cardscommon = ({ arr }) => {
                     </ul>
                 </div>
                 <div className="point2">
-                    <Link to={'/mainform'}> <button>Check Out</button> </Link> 
+                    <h3>$500</h3> 
                 </div>
             </div>
         </div>

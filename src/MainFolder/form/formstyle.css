@@ -87,6 +87,7 @@
   padding-left: 0.5em;
   border: 1px solid darkgray;
   border-radius: 0.1em;
+  font-size: medium;
 }
 .card-part .form-div #sub {
   width: 8em;
@@ -98,6 +99,25 @@
 .card-part .form-div #sub:hover {
   background-color: #ff8a04;
 }
+.card-part .form-div #ser,
+.card-part .form-div #pri {
+  height: 3rem;
+  border: none;
+  margin: 0.5rem 0;
+  font-size: medium;
+}
+.card-part .form-div #ser option,
+.card-part .form-div #pri option {
+  width: inherit;
+  color: black;
+}
+.card-part .thankyou {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 @media screen and (max-width: 1500px) {
   .card-part {
@@ -107,13 +127,15 @@
     right: 0;
     bottom: 0;
     width: inherit;
-    height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
+    padding: 1.5rem;
     margin: 1rem;
+  }
+  .card-part .top-part h2 {
+    font-size: 1.1rem;
   }
   .card-part .hero {
     font-size: 1.6rem;
@@ -143,12 +165,25 @@
     padding-left: 0.5em;
     border: 1px solid darkgray;
     border-radius: 0.1em;
+    margin: 0.5rem 0;
   }
   .card-part .form-div #sub {
     width: 8em;
     padding-left: 0;
     border: none;
     border-radius: 0.2em;
+  }
+  .card-part .form-div #ser,
+  .card-part .form-div #pri {
+    width: 80%;
+    height: 2rem;
+    border: none;
+    margin: 0.5rem 0;
+  }
+  .card-part .form-div #ser option,
+  .card-part .form-div #pri option {
+    width: inherit;
+    color: black;
   }
 }
 /*# sourceMappingURL=formstyle.css.map */

@@ -1,8 +1,8 @@
 .common .backButton {
-  position: absolute;
+  position: relative;
   z-index: 111;
-  top: 5rem;
-  left: 4rem;
+  top: 2rem;
+  left: 2rem;
   text-decoration: none;
   color: black;
 }
@@ -20,8 +20,8 @@
 @media screen and (max-width: 800px) {
   .common .backButton {
     position: relative;
-    top: 2rem;
-    left: 2rem;
+    top: 1rem;
+    left: 1rem;
   }
   .common .backButton svg {
     width: 3rem;

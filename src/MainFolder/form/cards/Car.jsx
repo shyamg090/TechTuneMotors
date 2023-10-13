@@ -14,7 +14,7 @@ function Car() {
         })
         res.setpage(2);
     }
-    console.log(res.values);
+    // console.log(res.values);
 
     function backFun() {
         res.setpage(0);

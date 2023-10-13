@@ -12,7 +12,7 @@ const Home = () => {
         // await res.setvalues({ ...val })
         res.setpage(1);
     }
-    console.log(res.values);
+    // console.log(res.values);
 
     return (
             <div className="card-part">

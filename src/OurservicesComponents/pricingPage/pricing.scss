@@ -1,5 +1,19 @@
-
 .pricingPage {
+    width: 100%;
+    
+    .backButton {
+        position: relative;
+        text-decoration: none;
+        color: black;
+
+        svg {
+            z-index: 111;
+            top: 2rem;
+            left: 2rem;
+            width: 3.5rem;
+            height: 3.5rem;
+        }
+    }
 
     >.pri-back {
         height: 50px;
@@ -16,6 +30,28 @@
         >a {
             text-decoration: none;
             color: black;
+        }
+    }
+
+    .price-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:'1050px') {
+    .pricingPage {
+        .backButton {
+            position: relative;
+            top: 1rem;
+            left: 1rem;
+
+            svg {
+                width: 3rem;
+                height: 3rem;
+            }
         }
     }
 }

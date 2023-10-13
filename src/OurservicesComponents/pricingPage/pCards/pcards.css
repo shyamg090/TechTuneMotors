@@ -2,13 +2,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  margin: 1rem;
-  padding: 1rem;
+  width: 80%;
+  margin: 2rem;
+  padding: 2rem;
 }
 .pri-cards > .pri-card-img > img {
   width: 16rem;
   height: 14rem;
+  border-radius: 20rem;
 }
 .pri-cards > .pri-cards-content {
   display: flex;
@@ -16,10 +17,11 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: 0 1.5rem;
-  width: 60%;
+  width: 80%;
 }
 .pri-cards > .pri-cards-content > .pri-point {
   font-size: 1.2rem;
+  text-align: center;
 }
 .pri-cards > .pri-cards-content > .pri-point2 {
   display: flex;
@@ -41,6 +43,7 @@
     flex-direction: column;
     margin: 1rem 0;
     padding: 0rem;
+    width: 100%;
   }
   .pri-cards > .pri-card-img > img {
     width: 12rem;

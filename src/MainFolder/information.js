@@ -214,9 +214,9 @@ exports.footerArr = [
     },
     {
         "id": "4",
-        "point1 G": "Made By",
+        "point1": "Made By",
         "point2": "Shyam G",
-        "point3": "",
+        "point3": "Rahul Vasudev",
         "point4": ""
     }
 
