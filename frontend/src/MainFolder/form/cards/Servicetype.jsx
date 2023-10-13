@@ -15,6 +15,7 @@ const Servicetype = () => {
         await res.setvalues((prev) => {
             axios.post('http://localhost:4000/form', {
                 ...prev
+                , date: event.target.date.value
                 , type: event.target.service.value,
                 price: event.target.price.value
             }).then((res) => {
