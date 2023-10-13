@@ -13,7 +13,7 @@ const Servicetype = () => {
         event.preventDefault();
 
         await res.setvalues((prev) => {
-            axios.post('http://localhost:4000/form', {
+            axios.post('https://techtunemotors-backend.onrender.com/form', {
                 ...prev
                 , date: event.target.date.value
                 , type: event.target.service.value,
