@@ -1,4 +1,4 @@
-import React, { createContext } from 'react'
+import React from 'react'
 import Cards from './cards/Cards';
 import './services.css'
 import { array } from '../information';
