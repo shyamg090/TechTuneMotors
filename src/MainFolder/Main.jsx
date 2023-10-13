@@ -1,42 +1,43 @@
 import React from 'react'
+
 import bannerimg from '../images/bannerimg.png';
 import logo from '../images/logo.png';
 import './main.css';
 
-import ServicesCon from './contents/services/ServicesCon';
-import NavbarCon from './contents/navbar/NavbarCon';
-import PriceCon from './contents/price/PriceCon';
-import GaranteeCon from './contents/garantee/GaranteeCon';
-import WorkingCon from './contents/working/WorkingCon';
-import MechanicCon from './contents/mechanic/MechanicCon';
-import RatingCon from './contents/ratings/RatingsCon';
+
+// import NavbarCon from './navbar/NavbarCon';
+// import ServicesCon from './services/ServicesCon';
+// import PriceCon from './price/PriceCon';
+// import GaranteeCon from './garantee/GaranteeCon';
+// import WorkingCon from './working/WorkingCon';
+// import MechanicCon from './mechanic/MechanicCon';
+// import RatingCon from './ratings/RatingsCon';
+
 
 import { Form } from './form/Form';
+import {ContentPage} from './contentPage/ContentPage';
+
 
 const Main = () => {
+
   return (
+
     <div className='body-div'>
+
       <div className="logo">
-        <img  src={logo} alt="logo" />
+        <img src={logo} alt="logo" />
       </div>
 
       <div className='banner' >
         <img className='imagebg' src={bannerimg} alt="banner" />
       </div>
 
+      <Form />
 
-      <div className="content">
-        <Form />
-        <NavbarCon />
-        <ServicesCon />
-        <PriceCon/>
-        <GaranteeCon/>
-        <WorkingCon />
-        <MechanicCon/>
-        <RatingCon/>
-      </div>
+      <ContentPage />
 
     </div>
+
   )
 }
 

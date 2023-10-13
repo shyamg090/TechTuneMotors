@@ -1,8 +1,7 @@
-@import '../../colors.scss';
 
-.pricingPage{
+.pricingPage {
 
-    >.pri-back{
+    >.pri-back {
         height: 50px;
         margin: 0;
         padding: 1rem;
@@ -11,12 +10,12 @@
         justify-content: center;
         position: sticky;
         top: 0;
-        background-color: $bg-color;
+        background-color: #ffc104;
         // backdrop-filter: blur(5px);
 
-        >a{
+        >a {
             text-decoration: none;
-            color: $text-color;
+            color: black;
         }
     }
 }

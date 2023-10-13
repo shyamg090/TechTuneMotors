@@ -1,0 +1,67 @@
+
+.pcards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    // border: 2px solid rgb(0, 0, 0);
+    border-radius: .5rem;
+
+    // background-image: url('https://images.template.net/83328/free-car-service-illustration-90xuc.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 25rem;
+    height: 10rem;
+    margin: 1rem;
+    // padding: 1rem;
+
+    >a {
+        text-decoration: none;
+        color: inherit;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        width: inherit;
+        height: inherit;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.625);
+        backdrop-filter: blur(2px);
+
+        >.pcards-content {
+            h4 {
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+    &:hover {
+        background-color: #f7e880;
+        color: #6e0e05;
+    }
+}
+
+@media screen and (max-width:"800px") {
+    .pcards {
+        padding: 0rem;
+        width: 100%;
+        height: 10rem;
+
+        >a {
+            h3 {
+                text-align: center;
+            }
+
+            >.pcards-content {
+                h4 {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+
+}
