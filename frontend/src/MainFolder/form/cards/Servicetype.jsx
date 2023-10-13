@@ -18,8 +18,6 @@ const Servicetype = () => {
                 , date: event.target.date.value
                 , type: event.target.service.value,
                 price: event.target.price.value
-            }).then((res) => {
-                console.log(res);
             });
             return {
                 ...prev

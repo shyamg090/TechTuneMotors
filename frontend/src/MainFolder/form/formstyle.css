@@ -68,7 +68,7 @@
   justify-content: center;
 }
 .card-part .logo-area .logo-img {
-  width: 7em;
+  width: 5em;
   padding: 1rem;
 }
 .card-part .form-div {
@@ -99,15 +99,14 @@
 .card-part .form-div #sub:hover {
   background-color: #ff8a04;
 }
-.card-part .form-div #ser,
-.card-part .form-div #pri {
+.card-part .form-div #ser, .card-part .form-div #pri {
+  width: 80%;
   height: 3rem;
   border: none;
   margin: 0.5rem 0;
   font-size: medium;
 }
-.card-part .form-div #ser option,
-.card-part .form-div #pri option {
+.card-part .form-div #ser option, .card-part .form-div #pri option {
   width: inherit;
   color: black;
 }
@@ -173,15 +172,13 @@
     border: none;
     border-radius: 0.2em;
   }
-  .card-part .form-div #ser,
-  .card-part .form-div #pri {
+  .card-part .form-div #ser, .card-part .form-div #pri {
     width: 80%;
     height: 2rem;
     border: none;
     margin: 0.5rem 0;
   }
-  .card-part .form-div #ser option,
-  .card-part .form-div #pri option {
+  .card-part .form-div #ser option, .card-part .form-div #pri option {
     width: inherit;
     color: black;
   }

@@ -81,7 +81,7 @@
 
 
         .logo-img {
-            width: 7em;
+            width: 5em;
             padding: 1rem;
         }
     }
@@ -120,9 +120,8 @@
             }
         }
 
-        #ser,
-        #pri {
-            // width: 80%;
+        #ser, #pri {
+            width: 80%;
             height: 3rem;
             border: none;
             margin: .5rem 0;
@@ -210,8 +209,7 @@
                 border-radius: 0.2em;
             }
 
-            #ser,
-            #pri {
+            #ser,#pri {
                 width: 80%;
                 height: 2rem;
                 border: none;

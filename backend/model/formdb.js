@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGO_URL).then((res) => {
+mongoose.connect(`${process.env.MONGO_URL}`).then((res) => {
     console.log('database connected');
 });
 
@@ -12,9 +12,9 @@ const formCol = new mongoose.Schema({
     address: String,
     date: String,
     type: String,
-    price : String
+    price: String
+    
 })
-
 
 exports.Form  = mongoose.model( 'Form', formCol);
 
