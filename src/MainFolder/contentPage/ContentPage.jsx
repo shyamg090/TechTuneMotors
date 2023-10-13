@@ -13,9 +13,8 @@ const ContentPage = () => {
     return (
         <>
             <div className="content">
-                {/* <ServicesCon />, <PriceCon />, <GaranteeCon />, <WorkingCon />, <MechanicCon />, <RatingCon /> */}
+                
                 <MainContext.Provider value={{ conpage, setconpage }}>
-
                     <Routes>
                         <Route path='/' element={<Content />} />
                     </Routes>
