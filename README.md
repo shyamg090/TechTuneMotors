@@ -39,12 +39,12 @@ To run this project locally, follow these steps:
    Create a `.env` file in the root directory and configure the following variables:
    ```env
    PORT=3000
-   MONGODB_URI=your_mongodb_connection_string
+   MONGO_URL=your_mongodb_connection_string
    ```
 
 4. **Run the Application:**
    ```sh
-   npm start
+   npm run dev
    ```
 
 5. **Access the Website:**
@@ -52,6 +52,6 @@ To run this project locally, follow these steps:
 
 ## Support
 
-If you encounter any issues or have questions, feel free to reach out to our support team at support@techtunemotors.com.
+If you encounter any issues or have questions, feel free to reach out me at shyamg3000@gmail.com.
 
 Thank you for choosing TechTune Motors for your vehicle servicing needs! Safe travels! 🚗✨
