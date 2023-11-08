@@ -23,7 +23,8 @@ const Form = () => {
                     <Route path="/" element={<Control />} />
                 </Routes>
             </AppContext.Provider>
-        </div>)
+        </div>
+    )
 }
 
 export { Form, AppContext }

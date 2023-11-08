@@ -28,7 +28,7 @@ function Car() {
     }
 
     return (
-        <div className="card-part">
+        <div className="card-part" >
             <div className="top-part">
                 <h1 onClick={backFun} ><BiArrowBack /></h1>
                 <h2>Select Car</h2>

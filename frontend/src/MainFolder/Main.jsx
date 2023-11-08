@@ -1,6 +1,6 @@
 import React from 'react'
 
-import bannerimg from '../images/bannerimg.png';
+import bannerimg from '../images/bannerimg.jpg';
 import logo from '../images/logo.png';
 import './main.css';
 
@@ -20,12 +20,16 @@ const Main = () => {
       </div>
 
       <div className='banner' >
+        <h1 className='top-h1' ><span>T</span>he <span>O</span>ne <span>S</span>top <span>S</span>olution</h1>
         <img className='imagebg' src={bannerimg} alt="banner" />
+        <h1 className='bottom-h1' ><span>F</span>or <span>Y</span>our <span>C</span>ar. </h1>
       </div>
 
-      <Form />
+      <div className="content-div">
+        <Form />
 
-      <ContentPage />
+        <ContentPage />
+      </div>
 
     </div>
 
